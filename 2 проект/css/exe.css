@@ -1,0 +1,231 @@
+body {
+  margin: 0px;
+  background: url(../img/header.png) no-repeat;
+  padding-bottom: 100px;
+}
+
+body a {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: #ffffff;
+}
+
+body li {
+  list-style-type: none;
+}
+
+.content .header {
+  padding-top: 55px;
+  height: 488px;
+  width: 100%;
+  z-index: 1;
+}
+
+.content .header .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+}
+
+.content .header .title .main-name {
+  width: 222px;
+  opacity: 0.68;
+  color: #ffffff;
+  font-family: "Mrs Eaves Italic";
+  font-size: 119px;
+  font-weight: 400;
+  line-height: auto;
+}
+
+.content .header .title .menu {
+  width: 476px;
+  color: #ffffff;
+  font-family: "Segoe WPN";
+  font-size: 23px;
+  font-weight: 300;
+}
+
+.content .header .title .menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0px;
+}
+
+.content .header .title .menu ul li {
+  list-style-type: none;
+}
+
+.content .header .greeting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0px 10%;
+  padding-top: 68px;
+  height: 345px;
+}
+
+.content .header .greeting caption {
+  width: 337px;
+  height: 112px;
+  color: #ffffff;
+  font-family: "Segoe WPN";
+  font-size: 45px;
+  font-weight: 300;
+}
+
+.content .header .greeting caption h1 {
+  font-family: "Segoe WPN - Semibold";
+  font-size: 65px;
+  font-weight: 400;
+}
+
+.content .main-content {
+  background: #ffff;
+  width: 100%;
+  padding-top: 67px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content .main-content .fold_sheets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 935px;
+  height: auto;
+}
+
+.content .main-content .fold_sheets .cell {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content .main-content .fold_sheets .cell span {
+  margin-top: 22px;
+  width: 121px;
+  height: 47px;
+  color: #5c5b5b;
+  font-family: "Segoe WPN";
+  font-weight: 300;
+  font-size: 23px;
+}
+
+.content .main-content .face {
+  margin-top: 109px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content .main-content .face .text h1 {
+  color: #4f4f4f;
+  font-family: "Segoe WPN";
+  font-size: 39px;
+  font-weight: 300;
+}
+
+.content .main-content .face .text .paragraph {
+  max-width: 897px;
+  color: #818181;
+  font-family: "Univers CE";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.content .main-content .question_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-top: 90px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 100px;
+}
+
+.content .main-content .question_block .screen_shot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 85.625%;
+}
+
+.content .main-content .question_block .screen_shot .question h1 {
+  margin-left: -18px;
+  color: #4f4f4f;
+  font-family: "Segoe WPN";
+  font-size: 33px;
+  font-weight: 300;
+}
+
+.content .main-content .question_block .screen_shot .question ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px;
+  min-height: 205px;
+}
+
+.content .main-content .question_block .screen_shot .question ul li {
+  position: relative;
+  /* Style for "Why choose" */
+  color: #4f4f4f;
+  font-family: "Segoe WPN";
+  font-weight: 300;
+  padding-left: 32px;
+}
+
+.content .main-content .question_block .screen_shot .question ul li::after {
+  content: "";
+  position: absolute;
+  background: url(../img/mark.png) no-repeat;
+  position: absolute;
+  left: -18px;
+  width: 18px;
+  height: 18px;
+}
